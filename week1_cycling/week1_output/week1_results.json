@@ -1,0 +1,33 @@
+{
+  "parameters": {
+    "n_cycles": 200,
+    "initial_capacity_mAh_g": 160.156091322409,
+    "capacity_fade_model": "linear + power_law (1.5e-3 * n + 8e-6 * n^1.6)",
+    "noise_std": 0.8,
+    "random_seed": 42,
+    "discharge_curve_voltage_range": [
+      3.6,
+      3.2
+    ],
+    "discharge_curve_points": 50
+  },
+  "statistics": {
+    "final_capacity_mAh_g": 104.93586665975057,
+    "total_fade_mAh_g": 55.220224662658424,
+    "fade_per_cycle_mAh_g": 0.2775,
+    "final_retention_pct": 65.52,
+    "coulomb_eff_mean_pct": 99.705,
+    "coulomb_eff_std_pct": 0.125,
+    "coulomb_eff_min_pct": 99.441,
+    "eol_cycle_80pct": 118,
+    "discharge_fade_c1_vs_c200_mAh_g": 55.22,
+    "dqdv_peak_magnitude": 60.2,
+    "dqdv_peak_voltage_V": 3.2
+  },
+  "figures": {
+    "capacity_retention": "capacity_retention.png",
+    "coulomb_efficiency": "coulomb_efficiency.png",
+    "discharge_curves": "discharge_curves.png",
+    "dq_dv_analysis": "dq_dv_analysis.png"
+  }
+}
