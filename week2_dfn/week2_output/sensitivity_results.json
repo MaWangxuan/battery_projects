@@ -1,0 +1,38 @@
+{
+  "Negative electrode active material volume fraction": {
+    "param_name": "Negative electrode active material volume fraction",
+    "type": "number",
+    "low": 0.5,
+    "high": 0.7,
+    "baseline_final_V": 2.7999999999995704,
+    "low_final_V": 2.799999999999998,
+    "high_final_V": 2.7999999999996583
+  },
+  "Positive electrode active material volume fraction": {
+    "param_name": "Positive electrode active material volume fraction",
+    "type": "number",
+    "low": 0.4,
+    "high": 0.6,
+    "baseline_final_V": 2.7999999999995704,
+    "low_final_V": 2.799999999999999,
+    "high_final_V": 2.79999999999957
+  },
+  "Negative particle diffusivity [m2.s-1]": {
+    "param_name": "Negative particle diffusivity [m2.s-1]",
+    "type": "diffusivity",
+    "low": 5e-15,
+    "high": 2e-14,
+    "baseline_final_V": 2.7999999999995704,
+    "low_final_V": 2.799999999999567,
+    "high_final_V": 2.7999999999998146
+  },
+  "Positive particle diffusivity [m2.s-1]": {
+    "param_name": "Positive particle diffusivity [m2.s-1]",
+    "type": "diffusivity",
+    "low": 5e-15,
+    "high": 2e-14,
+    "baseline_final_V": 2.7999999999995704,
+    "low_final_V": 2.799999999999866,
+    "high_final_V": 2.7999999999999985
+  }
+}
