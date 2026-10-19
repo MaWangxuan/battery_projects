@@ -1,0 +1,38 @@
+{
+  "parameters": {
+    "L_total_mm": 100.0,
+    "nx": 50,
+    "dx_mm": 2.0408163265306123,
+    "dt": 2.0,
+    "nt": 300,
+    "t_total_s": 600.0,
+    "alpha_th": 5e-07,
+    "Fo": 0.24009999999999995,
+    "rho": 2500.0,
+    "Cp": 1200.0,
+    "k_th": 1.5,
+    "T_amb_K": 298.15,
+    "h_conv": 50.0,
+    "q_base": 200000.0,
+    "A_over_V": 400.0,
+    "h_vol": 20000.0
+  },
+  "case1_adiabatic_vs_cooled": {
+    "cooled_max_rise_K": 9.811228815654772,
+    "adiabatic_max_rise_K": 39.684154696892676
+  },
+  "case2_crate": {
+    "0.5C": {
+      "max_temp_rise_K": 4.9056144078272155,
+      "center_temp_rise_K": 4.9056144078272155
+    },
+    "1.0C": {
+      "max_temp_rise_K": 9.811228815654772,
+      "center_temp_rise_K": 9.811228815654772
+    },
+    "2.0C": {
+      "max_temp_rise_K": 19.62245763130943,
+      "center_temp_rise_K": 19.62245763130943
+    }
+  }
+}
