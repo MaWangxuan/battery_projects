@@ -1,0 +1,35 @@
+{
+  "parameters": {
+    "L_um": 100.0,
+    "nx": 50,
+    "dx_um": 2.0408163265306123,
+    "D_m2s": 2.5e-10,
+    "dt_s": 0.0016659725114535615,
+    "nt": 5000,
+    "t_total_ms": 8329.862557267807,
+    "stability_r": 0.1,
+    "c0": 1000.0,
+    "E_Vm": 100.0,
+    "mig_coeff": 9.730944061226575e-09
+  },
+  "case1_pure_diffusion": {
+    "final_c_left": 1000.128675028403,
+    "final_c_right": 1000.079737881049,
+    "final_polarization": 0.0489371473539677,
+    "uniformization_time_ms": 131.61182840483136
+  },
+  "case2_diffusion_plus_migration": {
+    "final_c_left": 1081.331733815793,
+    "final_c_right": 913.5828972996742,
+    "final_polarization": 167.7488365161189,
+    "N_diff_final": -0.0,
+    "N_mig_final": 0.0010522378613390627,
+    "migration_dominated": true
+  },
+  "physics_summary": {
+    "electric_field_direction": "leftward (phi: 0→10mV, E<0)",
+    "Li_migration_direction": "leftward (positive charge toward lower potential)",
+    "observation": "Migration opposes diffusion, amplifying polarization from 50 to 167 mol/m³",
+    "conclusion": "At high C-rates, migration term in Nernst-Planck cannot be neglected"
+  }
+}
