@@ -2,8 +2,8 @@
 
 ## Model
 - Simulated LFP (LiFePO4) full-cell cycling data, 200 cycles
-- Capacity fade: linear + power-law decay + Gaussian noise (σ=0.8 mAh/g)
-- Coulombic efficiency: slight upward trend (SEI stabilization) + noise (σ=0.05%)
+- Capacity fade: linear + power-law decay + Gaussian noise (sigma=0.8 mAh/g)
+- Coulombic efficiency: slight upward trend (SEI stabilization) + noise (sigma=0.05%)
 - Discharge curves: exponential decay model V vs Q, 4 representative cycles (1/50/100/200)
 - dQ/dV analysis: numerical differentiation of discharge curve (Cycle 100), LFP plateau at ~3.45V
 
@@ -11,14 +11,14 @@
 - n_cycles = 200
 - Initial capacity = 160.2 mAh/g
 - Fade: 0.15%/cycle (linear) + 0.0008*n^1.6 (power-law)
-- CE noise σ = 0.05%, capacity noise σ = 0.8 mAh/g
+- CE noise sigma = 0.05%, capacity noise sigma = 0.8 mAh/g
 - Random seed = 42 (reproducible)
 
 ## Results
 - Final capacity: 104.9 mAh/g
 - Total fade: 55.2 mAh/g (0.277 mAh/g/cycle)
 - Final retention: 65.5%
-- CE mean: 99.705 ± 0.125%
+- CE mean: 99.705 +/- 0.125%
 - CE min: 99.441%
 - EOL (80%): Cycle 118
 - Discharge fade (C1 vs C200): 55.2 mAh/g

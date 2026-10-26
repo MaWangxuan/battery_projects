@@ -12,8 +12,8 @@
     "discharge_curve_points": 50
   },
   "statistics": {
-    "final_capacity_mAh_g": 104.93586665975057,
-    "total_fade_mAh_g": 55.220224662658424,
+    "final_capacity_mAh_g": 104.94,
+    "total_fade_mAh_g": 55.22,
     "fade_per_cycle_mAh_g": 0.2775,
     "final_retention_pct": 65.52,
     "coulomb_eff_mean_pct": 99.705,
